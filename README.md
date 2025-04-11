@@ -22,14 +22,14 @@ These indicators were selected based on their economic relevance and their low m
 
 # Methodology
 
-# 1. Data Collection**
+# 1. Data Collection
 Historical data was extracted using the `yfinance` library from Yahoo Finance for the period 2024-01-01 to 2025-03-31.
 
 Python
 import yfinance as yf
 
 
-# 2. Data Preprocessing**
+# 2. Data Preprocessing
 - Reformatted MultiIndex columns
 - Renamed variables for clarity
 - Merged datasets using the `Date` column
